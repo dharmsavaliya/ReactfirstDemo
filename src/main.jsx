@@ -1,7 +1,7 @@
-import { PureComponent, StrictMode } from 'react'
+import {  StrictMode } from 'react'
 import { createRoot } from 'react-dom/client';
-import MyCustComp from './lac3112/propexmp3';
-import Purefunc1 from './lac3112/purefunc1';
+// import MyCustComp from './lac3112/propexmp3';
+// import Purefunc1 from './lac3112/purefunc1';
 import MyCustButton from './lac3112/purefunc2';
 // import StateMerge from './30-12-2024/statemgmt3';
 // import StateABC from './30-12-2024/statemgmt1';
