@@ -1,8 +1,11 @@
 import {  StrictMode } from 'react'
 import { createRoot } from 'react-dom/client';
+import StateExample2 from './lac01-06-2025/hookexmp2';
+// import HookExmp from './lac01-06-2025/hookexmp';
+// import HookExmp1 from './lac3112/hookexmp1';
 // import MyCustComp from './lac3112/propexmp3';
 // import Purefunc1 from './lac3112/purefunc1';
-import MyCustButton from './lac3112/purefunc2';
+// import MyCustButton from './lac3112/purefunc2';
 // import StateMerge from './30-12-2024/statemgmt3';
 // import StateABC from './30-12-2024/statemgmt1';
 // import StateXYZ from './30-12-2024/statemgmt2';
@@ -20,10 +23,12 @@ createRoot(document.getElementById('root')).render(
     {/* <MyCustComp/> */}
     {/* <Purefunc1 var1={true} var2={"hellioo"}/>
     <Purefunc1 var1={false} var2={"how are you"}/> */}
-    <MyCustButton var1={true}/>
+    {/* <MyCustButton var1={true}/>
     <br/>
     <MyCustButton var2={"6CEB"}/>
     <br/>
-    <MyCustButton var1={true} var2={"B.tech"}/>
-        </StrictMode>,
+    <MyCustButton var1={true} var2={"B.tech"}/> */}
+    {/* <HookExmp1/> */}
+    <StateExample2/>
+</StrictMode>,
 )
