@@ -18,7 +18,7 @@ export default function UseContextExample(){
                 <button onClick={()=>setCurrentPage(1)} disabled={currentPage === 1}>Page 2</button>
                 <button onClick={()=>setCurrentPage(2)} disabled={currentPage === 2}>Page 3</button>
                 <button onClick={()=>setCurrentPage(3)} disabled={currentPage === 3}>Page 4</button>
-                <button onClick={()=>setCurrentPage(4)} >Page 5</button>
+                <button onClick={()=>setCurrentPage(4)} disabled={currentPage === 4}>Page 5</button>
                 <SelectPage i={currentPage} />
             </div>
         </UserProvider>
