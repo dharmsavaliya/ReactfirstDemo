@@ -1,7 +1,9 @@
 import {  StrictMode } from 'react'
 import { createRoot } from 'react-dom/client';
-import StateExample3 from './lac01-06-2025/hookexmp3';
-import ApiSimulation from './18-01-2025/hookuseeffect';
+// import StateExample3 from './lac01-06-2025/hookexmp3';
+// import ApiSimulation from './18-01-2025/hookuseeffect';
+import App from './18-01-2025/hookuseeffect1';
+import CustomComp from './21-1-2025/compo1';
 // import StateExample2 from './lac01-06-2025/hookexmp2';
 // import HookExmp from './lac01-06-2025/hookexmp';
 // import HookExmp1 from './lac3112/hookexmp1';
@@ -32,6 +34,8 @@ createRoot(document.getElementById('root')).render(
     <MyCustButton var1={true} var2={"B.tech"}/> */}
     {/* <HookExmp1/> */}
     {/* <StateExample2/> */}
-    <ApiSimulation/>
+    {/* <ApiSimulation/> */}
+    <CustomComp/>
+    <App/>
 </StrictMode>,
 )
