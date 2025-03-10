@@ -2,8 +2,10 @@ import {  StrictMode } from 'react'
 import { createRoot } from 'react-dom/client';
 // import StateExample3 from './lac01-06-2025/hookexmp3';
 // import ApiSimulation from './18-01-2025/hookuseeffect';
-import App from './18-01-2025/hookuseeffect1';
-import CustomComp from './21-1-2025/compo1';
+// import App from './18-01-2025/hookuseeffect1';
+// import CustomComp from './21-1-2025/compo1';
+import ReducerExmp from './24-02-2025/reducerexmp';
+import ReducerDependency from './10-03-2025/reduceexamp2';
 // import StateExample2 from './lac01-06-2025/hookexmp2';
 // import HookExmp from './lac01-06-2025/hookexmp';
 // import HookExmp1 from './lac3112/hookexmp1';
@@ -35,7 +37,9 @@ createRoot(document.getElementById('root')).render(
     {/* <HookExmp1/> */}
     {/* <StateExample2/> */}
     {/* <ApiSimulation/> */}
-    <CustomComp/>
-    <App/>
+    {/* <CustomComp/> */}
+    {/* <ReducerExmp/> */}
+    <ReducerDependency/>
+    {/* <App/> */}
 </StrictMode>,
 )
